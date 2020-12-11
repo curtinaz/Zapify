@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zapify</title>
+    <script type="text/javascript" language="javascript" src="jquery.js"></script>
+
+
+        
+
+
+
+
 </head>
 <body>
-    Hello World
+    <p>Nome da pessoa:</p> <p id="p4">nome</p>
+
+    <script src="./workit.js"></script>
+
+    <script>
+        $.getJSON('data.json', function(data) {
+        });
+    </script>
+
+    <script>
+
+        const p4 = document.querySelector('#p4')
+        //substitui o onclick no html
+        p4.addEventListener('click', alteraParagrafo)
+        
+        function alteraParagrafo(){
+          p4.innerHTML = id0
+        }
+
+        console.log(rafa)
+
+    </script>
+
 </body>
 </html>
