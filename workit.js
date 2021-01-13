@@ -12,8 +12,8 @@ txtFile.onreadystatechange = function()
 
 
 
-function csvJSON(csv) {
-    const lines = csv.split('\n')
+function csvJSON(txtFile) {
+    const lines = txtFile.split('\n')
     const result = []
     const headers = lines[0].split(',')
 
