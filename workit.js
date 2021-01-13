@@ -2,6 +2,16 @@
 
 csv = document.querySelector("#csv")
 
+var txtFile = new XMLHttpRequest();
+txtFile.open("GET", csv.value, true);
+txtFile.onreadystatechange = function()
+{
+    allText = txtFile.responseText;
+    allTextLines = allText.split(/\r\n|\n/);
+};
+
+
+
 function csvJSON(csv) {
     const lines = csv.split('\n')
     const result = []
