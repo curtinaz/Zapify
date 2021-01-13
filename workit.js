@@ -1,6 +1,6 @@
 //var csv is the CSV file with headers
 
-
+csv = document.querySelector("#csv")
 
 function csvJSON(csv){
 
