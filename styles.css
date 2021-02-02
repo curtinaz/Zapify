@@ -34,5 +34,5 @@ body {
 #appbox h1:hover{
     letter-spacing: 4px;
     transition: 200ms ease-in-out;
-    color: linear-gradient(124deg, rgba(36,0,22,1) 0%, rgba(97,9,121,1) 35%, rgba(166,0,255,1) 100%);;
+    color: linear-gradient(124deg, rgba(36,0,22,1) 0%, rgba(97,9,121,1) 35%, rgba(166,0,255,1) 100%);
 }
