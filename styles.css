@@ -27,6 +27,8 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
 }
 
 #appbox h1:hover{
