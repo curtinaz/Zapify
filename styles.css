@@ -35,3 +35,7 @@ body {
     letter-spacing: 4px;
     transition: 200ms ease-in-out;
 }
+
+input[type=file] {
+    display: none;
+}
