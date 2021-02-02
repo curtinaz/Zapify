@@ -6,6 +6,8 @@ body {
 
     background: rgb(36,0,22);
     background: linear-gradient(124deg, rgba(36,0,22,1) 0%, rgba(97,9,121,1) 35%, rgba(166,0,255,1) 100%);
+
+    background-size: 100%;
 }
 
 #appbox {
