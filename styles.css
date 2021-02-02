@@ -7,4 +7,7 @@ body {
 
 #appbox {
     border: black 2px solid;
+    position: relative;
+top: 50%;
+transform: translateY(-50%); 
 }
