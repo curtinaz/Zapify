@@ -16,4 +16,6 @@ body {
 #appbox {
     border: black 2px solid;
     padding: 10px;
+
+    background-color: #fff;
 }
