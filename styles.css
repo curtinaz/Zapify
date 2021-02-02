@@ -45,4 +45,7 @@ input[type=file] {
     border-radius: 4px;
     background-color: rgb(36, 52, 145);
     color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
