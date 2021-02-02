@@ -8,4 +8,5 @@ body {
 #appbox {
     border: black 2px solid;
     vertical-align: middle;
+    padding: 10px;
 }
