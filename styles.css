@@ -4,3 +4,7 @@ body {
     justify-content: center;
     align-content: center;
 }
+
+#appbox {
+    border: black 2px solid;
+}
