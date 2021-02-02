@@ -31,5 +31,5 @@ body {
 
 #appbox h1:hover{
     letter-spacing: 4px;
-    transition: ease-in-out;
+    transition: 200ms ease-in-out;
 }
