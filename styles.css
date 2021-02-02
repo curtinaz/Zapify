@@ -39,3 +39,7 @@ body {
 input[type=file] {
     display: none;
 }
+
+#fileSelector {
+    
+}
