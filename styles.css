@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: table;
     align-items: center;
     justify-content: center;
     align-content: center;
