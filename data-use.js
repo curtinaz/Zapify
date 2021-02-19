@@ -13,13 +13,13 @@ fetch('./data.json')
   /* FUNCIONAMENTO DA API */
 
 //   var userID = 0;
-//   var userQUANTITY = dados.lenght;
+//   var userQTD = dados.lenght;
 //   var baseURL = `https://api.whatsapp.com/send?phone=`;
 //   var userDDD = dados.[userID].DDD;
 
 function startThis() {
 
-    // for(userID <= userQUANTITY) {
+    // for(userID <= userQTD) {
     //     console.log ("usuario 1");
     // }
 
