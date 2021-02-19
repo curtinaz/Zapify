@@ -27,9 +27,9 @@ function startThis() {
 }
 
 function nextUser() {
-
-  startThis();
   userID++;
+  startThis();
+
 }
 
 // https://api.whatsapp.com/send?phone=5551996842817&text=Boa%20tarde%2C%20Me%20chamo%20Fernanda%2C%20da%20Cin%C3%A9tica%20Edu!
