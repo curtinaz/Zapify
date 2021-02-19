@@ -6,5 +6,4 @@ fetch('./data.json')
   })
   .then (data => {
     dados = data;
-    baseMath()
   });
