@@ -48,7 +48,9 @@ input[type=file] {
 }
 
 #appbox #user-info {
-    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
 }
 
 #fileSelector {
