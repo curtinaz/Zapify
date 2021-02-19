@@ -10,7 +10,7 @@ fetch('./data.json')
     startThis();
   });
 
-  
+  /* FUNCIONAMENTO DA API */
 
 
 function startThis() {
