@@ -10,6 +10,19 @@ fetch('./data.json')
     startThis();
   });
 
+  /* ADICIÇÃO DO SLEEP */
+  
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  
+  async function ping() {
+    await sleep(1000); // Tempo necessário para cada atualização
+    moneyMath(); // Faz a conta
+    pong(); // Reinicia o ciclo
+  }
+
+
   /* FUNCIONAMENTO DA API */
 
      var userID = 0;
