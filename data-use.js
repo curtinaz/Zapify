@@ -1,6 +1,6 @@
 var dados;
 
-fetch('https://api.exchangeratesapi.io/latest')
+fetch('./data.json')
   .then(response => {
       return response.json();
   })
