@@ -15,6 +15,7 @@ fetch('./data.json')
      var userID = 0;
      var baseURL = `https://api.whatsapp.com/send?phone=`;
      var userDDD = dados.[userID].DDD;
+     var userNUMBER = dados.[userID].Telefone;
      var finalURL = `$(baseURL)$(userDDD)$(userNUMBER)`
 
 function startThis() {
