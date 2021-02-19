@@ -12,6 +12,9 @@ fetch('./data.json')
 
   /* FUNCIONAMENTO DA API */
 
+  var baseURL = `https://api.whatsapp.com/send?phone=`
+  var userDDD 
+
 
 function startThis() {
 
