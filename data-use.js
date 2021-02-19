@@ -8,4 +8,7 @@ fetch('./data.json')
     dados = data;
   });
 
-  document.querySelector("#userName").value = dados[1];
+
+  startThis() {
+      
+  }
