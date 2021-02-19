@@ -19,7 +19,7 @@ fetch('./data.json')
 
 function startThis() {
 
-    var mensagem = `Oi ${(dados[userID-1].Nome).split(' ').shift()}, tudo bem?`;
+    var mensagem = `Oi ${(dados[userID].Nome).split(' ').shift()}, tudo bem?`;
 
     document.querySelector("#userName").innerHTML = dados[userID].Nome
     document.querySelector("#whats").href = `${baseURL}${dados[userID].DDD}${dados[userID].Telefone}&text=${mensagem}`;
@@ -27,8 +27,9 @@ function startThis() {
 }
 
 function nextUser() {
-  userID++;
+
   startThis();
+  userID++;
 }
 
 // https://api.whatsapp.com/send?phone=5551996842817&text=Boa%20tarde%2C%20Me%20chamo%20Fernanda%2C%20da%20Cin%C3%A9tica%20Edu!
