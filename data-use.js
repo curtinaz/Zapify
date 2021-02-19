@@ -18,6 +18,9 @@ fetch('./data.json')
 
 function startThis() {
 
+    for(userID <= userQUANTITY) {
+        
+    }
 
     document.querySelector("#userName").innerHTML = dados[0].Nome;
 }
