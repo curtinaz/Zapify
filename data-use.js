@@ -11,6 +11,5 @@ fetch('./data.json')
   });
 
 
-startThis() {
-    document.querySelector("#userName").value = dados[1]
-}
+var startThis = () {    document.querySelector("#userName").innerHTML = dados[1]}
+
