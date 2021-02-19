@@ -27,7 +27,7 @@ function startThis() {
 
     var mensagem = `Oi ${(dados[userID].Nome).split(' ').shift()}, tudo bem?`;
 
-    document.querySelector("#userName").innerHTML = dados[userID].Nome
+    document.querySelector("#userName").innerHTML = (dados[userID].Nome).split(' ').shift()
     document.querySelector("#whats").href = `${baseURL}${dados[userID].DDD}${dados[userID].Telefone}&text=${mensagem}`;
 
 }
