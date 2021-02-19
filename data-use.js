@@ -11,17 +11,10 @@ fetch('./data.json')
   });
 
   /* ADICIÇÃO DO SLEEP */
-  
+
   function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  
-  async function ping() {
-    await sleep(1000); // Tempo necessário para cada atualização
-    moneyMath(); // Faz a conta
-    pong(); // Reinicia o ciclo
-  }
-
 
   /* FUNCIONAMENTO DA API */
 
@@ -39,10 +32,10 @@ function startThis() {
 
 }
 
-function nextUser() {
+async function nextUser() {
+  await sleep(1000); // Tempo necessário para a atualização de userID
   userID++;
   startThis();
-
 }
 
 // https://api.whatsapp.com/send?phone=5551996842817&text=Boa%20tarde%2C%20Me%20chamo%20Fernanda%2C%20da%20Cin%C3%A9tica%20Edu!
