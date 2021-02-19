@@ -18,9 +18,9 @@ fetch('./data.json')
 
 function startThis() {
 
-    // for(userID <= userQTD) {
-    //     console.log ("usuario 1");
-    // }
+    for(userID <= dados.length) {
+        console.log ("usuario 1");
+    }
 
     document.querySelector("#userName").innerHTML = dados[0].Nome;
 }
