@@ -19,6 +19,8 @@ fetch('./data.json')
 
 function startThis() {
 
+    var mensagem = `Oi ${(dados[userID-1].Nome).split(' ').shift()}, tudo bem?`;
+
     document.querySelector("#userName").innerHTML = dados[userID].Nome
     document.querySelector("#whats").href = `${baseURL}${dados[userID].DDD}${dados[userID].Telefone}&text=${mensagem}`;
 
