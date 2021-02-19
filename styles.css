@@ -55,6 +55,7 @@ input[type=file] {
 #whats {
     grid-column-start: 0;
     grid-column-end: 2;
+    text-align: center;
 }
 
 #fileSelector {
