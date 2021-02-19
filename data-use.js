@@ -20,7 +20,7 @@ fetch('./data.json')
 function startThis() {
 
     document.querySelector("#userName").innerHTML = dados[userID].Nome
-    document.querySelector("#whats").href = `${baseURL}${dados[userID].DDD}${dados[userID].Telefone}`;
+    document.querySelector("#whats").href = `${baseURL}${dados[userID].DDD}${dados[userID].Telefone}&text=${mensagem}`;
 
 }
 
