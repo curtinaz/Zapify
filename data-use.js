@@ -8,4 +8,4 @@ fetch('./data.json')
     dados = data;
   });
 
-  document.querySelector("#userName") = data
+  document.querySelector("#userName") = data[1]
