@@ -39,8 +39,9 @@ body {
     transition: 200ms ease-in-out;
 }
 
-#appbox h2 {
-}
+/* #appbox h2 {
+
+} */
 
 input[type=file] {
     display: none;
