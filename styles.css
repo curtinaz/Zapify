@@ -52,6 +52,11 @@ input[type=file] {
     grid-template-rows: 50% 50%;
 }
 
+#whats {
+    grid-column-start: 0;
+    grid-column-end: 2;
+}
+
 #fileSelector {
     padding: 8px;
     border-radius: 4px;
