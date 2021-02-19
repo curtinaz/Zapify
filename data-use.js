@@ -18,7 +18,7 @@ fetch('./data.json')
 
 function startThis() {
 
-    for(userID <= dados.length) {
+    for(userID=0; userID<=dados.length; userID=++) {
         console.log ("usuario 1");
     }
 
