@@ -17,9 +17,9 @@ aside {
     display: grid;
     align-items: center;
     align-content: center;
-    text-align: center;
+
 }
 
 #titlebox h1 {
-    
+    text-align: center;
 }
