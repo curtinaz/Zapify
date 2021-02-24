@@ -13,14 +13,14 @@ aside {
     background-color: rgb(130, 180, 255);
 }
 
-#titlebox {
+#title-box {
     display: grid;
     align-items: center;
     align-content: center;
 
 }
 
-#titlebox h1 {
+#title-box h1 {
     color: white;
     text-align: center;
 }
