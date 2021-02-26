@@ -7,7 +7,7 @@
 }
 
 .noSelect {
-    
+    user-select: none;
 }
 
 body {
