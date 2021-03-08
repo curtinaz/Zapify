@@ -56,4 +56,6 @@ aside {
 
 #dashboard-box p {
     align-items: left;
+    align-content: left;
+    text-align: left;
 }
