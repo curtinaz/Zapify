@@ -50,5 +50,5 @@ aside {
     align-items: center;
     align-content: center;
     text-align: center;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 1fr 1fr;
 }
