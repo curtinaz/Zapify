@@ -55,7 +55,7 @@ aside {
     color: white;
     font-family: 'Roboto', sans-serif;
 
-    grid-row-gap: 10px;
+    row-gap: 10px;
 }
 
 #dashboard-box p {
