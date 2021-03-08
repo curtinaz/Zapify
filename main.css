@@ -14,12 +14,6 @@
     -webkit-user-select: none;
 }
 
-.titleSection {
-    font-family: 'Roboto', sans-serif;
-    color: #75787f;
-    font-weight: 100;
-}
-
 body {
     display: grid;
     grid-template-columns: 15% 85%;
