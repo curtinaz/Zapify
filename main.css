@@ -76,8 +76,8 @@ section {
     margin: 20px 30px 20px 30px;
 }
 
-section #contentBox .titleSection {
+.titleSection {
     font-family: 'Roboto', sans-serif;
     color: #47484d;
-    font-weight: 100;
+    font-weight: 400;
 }
