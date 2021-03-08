@@ -56,6 +56,7 @@ aside {
     font-family: 'Roboto', sans-serif;
 
     row-gap: 10px;
+    cursor: pointer;
 }
 
 #dashboard-box p {
