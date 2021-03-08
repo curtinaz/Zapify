@@ -47,5 +47,8 @@ aside {
 
 #dashboard-box {
     display: grid;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     grid-template-columns: 15% 85%;
 }
