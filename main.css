@@ -61,3 +61,7 @@ aside {
     align-content: left;
     text-align: left;
 }
+
+section {
+    background-color: rgb(218, 184, 184);
+}
