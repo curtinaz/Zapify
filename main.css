@@ -38,7 +38,7 @@ aside {
     font-weight: 400;
 }
 
-#appbox h1:hover{
+#title-box h1:hover{
     letter-spacing: 4px;
     transition: 200ms ease-in-out;
 }
