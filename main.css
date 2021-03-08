@@ -47,5 +47,5 @@ aside {
 
 #dashboard-box {
     display: grid;
-    grid-template-columns: 5% 95%;
+    grid-template-columns: 15% 85%;
 }
