@@ -36,6 +36,7 @@ aside {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    transition: 200ms ease-in-out;
 }
 
 #title-box h1:hover{
