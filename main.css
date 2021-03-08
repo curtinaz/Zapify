@@ -46,5 +46,5 @@ aside {
 }
 
 #dashboard-box {
-    
+    display: grid;
 }
