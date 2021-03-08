@@ -53,6 +53,7 @@ aside {
     grid-template-columns: 20% 80%;
 
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #dashboard-box p {
