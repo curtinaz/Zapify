@@ -52,3 +52,7 @@ aside {
     text-align: center;
     grid-template-columns: 20% 80%;
 }
+
+#dashboard-box p {
+    align-self: left;
+}
