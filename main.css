@@ -51,6 +51,8 @@ aside {
     align-content: center;
     text-align: center;
     grid-template-columns: 20% 80%;
+
+    color: white;
 }
 
 #dashboard-box p {
