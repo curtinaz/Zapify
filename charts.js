@@ -38,3 +38,5 @@ var myChart = new Chart(ctx, {
     }
 });
 
+ctx.canvas.parentNode.style.height = '200px';
+ctx.canvas.parentNode.style.width = '200px';
