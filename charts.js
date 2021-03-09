@@ -1,42 +1,47 @@
 // CHART 1 
 
 var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
+
+		function MoreChartOptions(){} 
+var ChartData = {
+	labels : ["January","February","March","April","May","June","July",],
+	datasets : [
+		{
+		data : [65,8,90,81,56,55,40,],
+		backgroundColor :['rgba(25,118,179,1)','rgba(46,204,113,1)','rgba(155,89,182,1)','rgba(241,196,15,1)','rgba(189,195,199,1)','rgba(83,21,119,0.3)','rgba(205,251,187,0.7)',],
+		borderColor : ['rgba(136,136,136,0.5)','rgba(170,170,170,1)','rgba(155,89,182,1)','rgba(241,196,15,1)','rgba(189,195,199,1)','rgba(83,21,119,0.4)','rgba(205,251,187,1)',],
+		label:"2013"},
+
+		{
+		data : [21,48,40,19,96,27,100,],
+		backgroundColor :['rgba(25,118,179,1)','rgba(46,204,113,1)','rgba(155,89,182,1)','rgba(241,196,15,1)','rgba(189,195,199,1)','rgba(83,21,119,0.3)','rgba(205,251,187,0.7)',],
+		borderColor : ['rgba(136,136,136,0.5)','rgba(170,170,170,1)','rgba(155,89,182,1)','rgba(241,196,15,1)','rgba(189,195,199,1)','rgba(83,21,119,0.4)','rgba(205,251,187,1)',],
+		label:"2014"},
+
+]
+	};
+ChartOptions= {
+responsive:false,
+	layout:{padding:{top:12,left:12,bottom:12,},},
+	plugins:{
+datalabels:{display:false},
+},
+legend:{display:false},elements: {
+	arc: {borderWidth:0.01,
+},
+	line: {
+},
+	rectangle: {
+},
+},
+tooltips:{
+},
+hover:{
+	mode:'nearest',
+	animationDuration:400,
+},
+};
+ DrawTheChart(ChartData,ChartOptions,"chart-01","doughnut");
 
 ctx.canvas.parentNode.style.height = '33%';
 ctx.canvas.parentNode.style.width = '33%';
