@@ -72,6 +72,10 @@ section {
 
 /* CONTENT BOX */
 
+#section {
+    height: 100vh;
+}
+
 #contentBox {
     margin: 20px 30px 20px 30px;
 }
