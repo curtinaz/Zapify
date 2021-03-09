@@ -83,3 +83,9 @@ section {
     font-size: 36px;
 }
 
+#line1 {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
